@@ -24,7 +24,7 @@ Digite o seguinte, e então pressione a tecla *TAB*:
 $ cat /etc/pas
 ```
 
-Em seguida, pressione <TAB>.
+Em seguida, pressione *TAB*.
 
 Note que ela se autocompleta para /etc/passwd.
 
