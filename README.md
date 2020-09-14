@@ -1,6 +1,8 @@
 # linux
 ## Guia de Linux para iniciantes 
 
+<img src="/IMG_3828.PNG">
+
 ### Comandos básicos na Linha de Comando
 Comandos fundamentais do Linux/Unix para o aprendiz de linha de comando Linux/Unix. Se você for experiente com Linux/Unix: você provavelmente já dominou estes comandos. Caso contrário: você está no lugar certo.
 
