@@ -1,25 +1,25 @@
 # linux
-# Guia de Linux para iniciantes 
+## Guia de Linux para iniciantes 
 
-# Comandos básicos na Linha de Comando
+### Comandos básicos na Linha de Comando
 Comandos fundamentais do Linux/Unix para o aprendiz de linha de comando Linux/Unix. Se você for experiente com Linux/Unix: você provavelmente já dominou estes comandos. Caso contrário: você está no lugar certo.
 
 Nota: Alguns dos exemplos abaixo pressupõem arquivos e caminhos que podem não corresponder à sua instalação de sistemas e ferramentas particulares.
 
-Onde Adquirir
+**Onde Adquirir** </br>
+Estas ferramentas são instaladas nativamente na maioria das distribuições Unix/Linux, assim como no OS X. 
 
-Estas ferramentas são instaladas nativamente na maioria das distribuições Unix/Linux, assim como no OS X.
 ---
 Noções básicas
 
-# Função autocompletar com TAB:</br>
+### Função autocompletar com TAB:</br>
 
 As pessoas que são novas na linha de comando Unix/Linux frequentemente tentam digitar tudo na mão. Isto pode até funcionar bem se você digitar rápido e com precisão suiça.
 O que não é verdade para a maioria de nós sendo muito melhor usar a função autocompletar usando a tecla TAB.
 
 Note que o Windows PowerShell também suporta o preenchimento com TAB, mas ele lida com a ambigüidade de forma diferente. 
 
-Digite o seguinte, e então pressione a tecla <TAB>:
+Digite o seguinte, e então pressione a tecla *TAB*:
 ```
 $ cat /etc/pas
 ```
@@ -33,17 +33,17 @@ Agora tente a tabulação com ambigüidade:
 $ cd ~/Do
 ```
 
-Depois pressione <TAB>>TAB>.
+Depois pressione *TAB*>*TAB*>.
 
 Note que ela oferece duas opções: Documentos/ Downloads/.
 
-Agora adicione um "w" e pressione <TAB>:
+Agora adicione um "w" e pressione *TAB*:
 ```
 $ cd ~/Dow
 ```
-Pressione <TAB>. Ela se autocompleta para ~/Downloads/.
+Pressione *TAB*. Ela se autocompleta para ~/Downloads/.
 
-cat
+**cat** </br>
 Mostrar um arquivo:
 ```
 $ cat example.txt
@@ -56,12 +56,11 @@ $ cat FileA.txt FileB.txt > FileC.txt
 ```
 
 ---
-cd
+**cd** </br>
 Change Directory (Mudar Diretório) (cd) para o diretório /tmp:
 ```
 $ cd /tmp
 ```
-
 
 Mudança para o diretório home. Os seguintes comandos são equivalentes para o "aluno".
 usuário: "~" significa diretório home (por exemplo: /home/aluno):
@@ -78,7 +77,7 @@ $ cd ..
 ```
 
 ---
-echo
+**echo** </br>
 Imprimir (echo) a string "Cylon":
 ```
 $ echo Cylon
@@ -95,7 +94,7 @@ $ echo Cylon >> example.txt
 ```
 
 ---
-ls
+**ls** </br>
 Liste os arquivos no diretório atual (equivalente ao comando "dir" no cmd.exe):
 
 ```
@@ -118,7 +117,7 @@ $ ls -lart
 ```
 
 ---
-rede
+**rede** </br>
 Mostrar a configuração da interface de rede:
 
 ```
@@ -136,14 +135,14 @@ $ sudo /etc/init.d/networking restart
 ```
 
 ---
-passwd
+**passwd** </br>
 Altere sua senha:
 ```
 $ passwd
 ```
 
 ---
-ping
+**ping** </br>
 pingar um host para sempre (até que o CTRL-C seja pressionado), ver se ele está no ar (e não filtrado):
 ```
 $ ping 8.8.8.8
@@ -155,14 +154,14 @@ $ ping -c3 8.8.8.8
 ```
 
 ---
-pwd
+**pwd** </br>
 Print Working Directory (Imprimir diretório de trabalho) (pwd), mostrar o diretório atual:
 ```
 $ pwd
 ```
 
 ---
-sudo
+**sudo** </br>
 Executar um comando como root:
 ```
 $ sudo comando
@@ -173,4 +172,6 @@ Abrir uma shell como root:
 $ sudo bash
 ```
 
-extraído de SANS - Linux 101 Command Line Cheat Sheet
+
+
+######extraído de SANS - Linux 101 Command Line Cheat Sheet
