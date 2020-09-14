@@ -33,7 +33,7 @@ Agora tente a tabulação com ambigüidade:
 $ cd ~/Do
 ```
 
-Depois pressione *TAB*>*TAB*>.
+Depois pressione *TAB*.
 
 Note que ela oferece duas opções: Documentos/ Downloads/.
 
@@ -41,7 +41,7 @@ Agora adicione um "w" e pressione *TAB*:
 ```
 $ cd ~/Dow
 ```
-Pressione *TAB*. Ela se autocompleta para ~/Downloads/.
+Ao pressionar *TAB*. Ela se autocompleta para ~/Downloads/.
 
 **cat** </br>
 Mostrar um arquivo:
